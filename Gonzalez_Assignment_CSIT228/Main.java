@@ -17,8 +17,6 @@ public class Main {
         System.out.println("Removing 'key2': " + myMap.remove("key2"));
         System.out.println("Value for key 'key2' after removal: " + myMap.get("key2"));
 
-        System.out.println("----------------------------------------");
-
         System.out.println("Testing Arithmetic:");
         Arithmetic<Integer, Double> arithmetic = new Arithmetic<>(5, 2.5);
         System.out.println("Addition result: " + arithmetic.add());
